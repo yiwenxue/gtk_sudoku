@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+HEIGHT	main.c	/^int HEIGHT = 600;$/;"	v	typeref:typename:int
+WIDTH	main.c	/^int WIDTH = 600;$/;"	v	typeref:typename:int
+delete_event	main.c	/^static gboolean delete_event(GtkWidget *window,$/;"	f	typeref:typename:gboolean	file:	signature:(GtkWidget * window,GdkEvent * event,gpointer data)
+destroy	main.c	/^static void destroy(GtkWidget *window,$/;"	f	typeref:typename:void	file:	signature:(GtkWidget * window,gpointer data)
+isSafe	sudoku.c	/^bool isSafe(int grid[9][9],int row,int col,int num){$/;"	f	typeref:typename:bool	signature:(int grid[9][9],int row,int col,int num)
+isSafe	sudoku.h	/^bool isSafe(int grid[9][9],int row,int col,int num);$/;"	p	typeref:typename:bool	signature:(int grid[9][9],int row,int col,int num)
+load_file	main.c	/^static gboolean load_file(GtkWidget *window,$/;"	f	typeref:typename:gboolean	file:	signature:(GtkWidget * window,gpointer data)
+main	main.c	/^int main(int argc,char **argv){$/;"	f	typeref:typename:int	signature:(int argc,char ** argv)
+main	test.c	/^int main(){$/;"	f	typeref:typename:int	signature:()
+print_hello	main.c	/^static gboolean print_hello(GtkWidget *window,$/;"	f	typeref:typename:gboolean	file:	signature:(GtkWidget * window,gpointer data)
+print_puzzle	sudoku.c	/^void print_puzzle(int *puzzle){$/;"	f	typeref:typename:void	signature:(int * puzzle)
+print_puzzle	sudoku.h	/^void print_puzzle(int *puzzle);$/;"	p	typeref:typename:void	signature:(int * puzzle)
+print_puzzle	test.c	/^void print_puzzle(int *puzzle){$/;"	f	typeref:typename:void	signature:(int * puzzle)
+puzzle	main.c	/^int puzzle[9][9]; $/;"	v	typeref:typename:int[9][9]
+set_grid	test.c	/^void set_grid(int grid[9][9]){$/;"	f	typeref:typename:void	signature:(int grid[9][9])
+solveSudoku	sudoku.c	/^bool solveSudoku(int grid[9][9],int level){$/;"	f	typeref:typename:bool	signature:(int grid[9][9],int level)
+solveSudoku	sudoku.h	/^bool solveSudoku(int grid[9][9],int level);$/;"	p	typeref:typename:bool	signature:(int grid[9][9],int level)
+solve_sudoku	main.c	/^static gboolean solve_sudoku(GtkWidget window,$/;"	f	typeref:typename:gboolean	file:	signature:(GtkWidget window,gpointer data)
+unSeted	sudoku.c	/^bool unSeted(int grid[9][9],int *row, int *col){$/;"	f	typeref:typename:bool	signature:(int grid[9][9],int * row,int * col)
+unSeted	sudoku.h	/^bool unSeted(int grid[9][9],int *row, int *col);$/;"	p	typeref:typename:bool	signature:(int grid[9][9],int * row,int * col)
