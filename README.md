@@ -1,5 +1,5 @@
 ## This is a project to solve sudoku problem
-    Learn about backtrace method.
+    backtrace.
 # GUI build with GTK+ 
 
 # Build :
